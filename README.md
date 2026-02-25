@@ -15,6 +15,10 @@
 - Vite
 - JSON Server
 
+## 学んだこと
+
+-json-server,fetch
+
 ## セットアップ
 
 ```bash
