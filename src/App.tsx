@@ -23,9 +23,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-start justify-center pt-16">
+    <div className="min-h-screen bg-gray-900 flex items-start justify-center pt-16">
       <div className="w-full max-w-lg">
-        <h1 className="text-2xl font-bold text-gray-800 mb-6">タスク一覧</h1>
+        <h1 className="text-2xl font-bold text-gray-100 mb-6">タスク一覧</h1>
         <TaskList
           tasks={tasks}
           onComplete={handleComplete}

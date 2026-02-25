@@ -22,17 +22,17 @@ export function AddTask({ onAdd }: Props) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex items-center justify-between bg-white rounded-xl shadow-sm px-4 py-3 mb-3">
+    <form onSubmit={handleSubmit} className="flex items-center justify-between bg-gray-800 rounded-xl shadow-sm px-4 py-3 mb-3">
       <input
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="タスクを追加してください。"
-        className="flex-1 mx-4 text-sm text-gray-800 focus:outline-none"
+        className="flex-1 mx-4 text-sm text-gray-100 placeholder-gray-500 bg-transparent focus:outline-none"
       />
       <button
         type="submit"
-        className="text-sm text-blue-600 border border-blue-300 rounded-lg px-3 py-1 hover:bg-blue-50 transition"
+        className="text-sm text-blue-400 border border-blue-600 rounded-lg px-3 py-1 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
       >
         追加
       </button>

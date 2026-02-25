@@ -15,7 +15,7 @@ export function TaskList({ tasks, onDelete, onComplete ,onAdd}: Props) {
   return (
     <ul className="flex flex-col gap-3">
       {tasks.length === 0 && (
-        <p className="text-gray-500 text-center my-8">タスクがありません。</p>
+        <p className="text-gray-400 text-center my-8">タスクがありません。</p>
       )}
       {tasks.map((task) => (
         <TaskItem
